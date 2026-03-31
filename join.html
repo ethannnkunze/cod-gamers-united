@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Join Us - Cod Gamers United</title>
+    <style>
+        body {margin:0; font-family: Arial; background:#0d0d0d; color:white;}
+        header {background:#111; padding:20px; text-align:center; color:#00ffcc;}
+        nav {background:#1a1a1a; padding:12px; text-align:center;}
+        nav a {color:#00ffcc; margin:15px; text-decoration:none;}
+
+        form {
+            max-width:400px;
+            margin:auto;
+            background:#1a1a1a;
+            padding:20px;
+            border-radius:10px;
+            box-shadow:0 0 15px #00ffcc;
+        }
+
+        input, select {
+            width:100%;
+            padding:10px;
+            margin:10px 0;
+        }
+
+        button {
+            background:#00ffcc;
+            border:none;
+            padding:10px;
+            width:100%;
+            font-weight:bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Join Cod Gamers United</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="join.html">Join Us</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<h2 style="text-align:center;">Player Registration</h2>
+
+<form action="https://formspree.io/f/yourcode" method="POST">
+
+    <label>Gamer Tag:</label>
+    <input type="text" name="gamertag" required>
+
+    <label>Email:</label>
+    <input type="email" name="email" required>
+
+    <label>Favorite Weapon:</label>
+    <input type="text" name="weapon">
+
+    <label>Skill Level:</label>
+    <select name="level">
+        <option>Beginner</option>
+        <option>Intermediate</option>
+        <option>Pro</option>
+    </select>
+
+    <button type="submit">Join Now</button>
+
+</form>
+
+</body>
+</html>
